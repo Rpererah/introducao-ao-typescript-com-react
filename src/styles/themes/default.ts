@@ -1,0 +1,15 @@
+export const defaultTheme = {
+  green: '#00875F',
+  'green-light': '#00B37E',
+  'gray-background': '#121214',
+  'gray-card': '#202024',
+  'gray-divider': '#323238',
+  'gray-placeholder': '#7C7C8A',
+  'gray-text-apoio': '#8D8D99',
+  'gray-text': '#C4C4CC',
+  'gray-text-titles': '#E1E1E6',
+  white: '#FFFFFF',
+  'red-danger': '#f75a68',
+  yellow: 'yellow',
+  blue: 'blue',
+} as const
