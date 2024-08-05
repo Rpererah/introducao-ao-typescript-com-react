@@ -13,7 +13,7 @@ import { ptBR } from 'date-fns/locale/pt-BR'
 
 export function Post({ post }: PostProps) {
   const { author, content, publishedAt } = post
-  const { name, role } = author
+  const { name = '123', role = '123' } = author
   const publishedAtFormatted = format(
     publishedAt,
     "d 'de' LLLL 'às' HH:mm'h'",
